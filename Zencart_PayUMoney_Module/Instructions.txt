@@ -1,0 +1,7 @@
+Instructions: 
+
+1. Copy the files in the respective folders in the zencart kit.
+
+2. Go to file zencart/includes/application_top.php and comment the following line:
+
+$paramsToAvoid[] = 'hash';
