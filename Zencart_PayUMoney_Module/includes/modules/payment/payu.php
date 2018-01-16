@@ -16,7 +16,7 @@ class payu extends base {
     $this->title = MODULE_PAYMENT_PAYU_TEXT_TITLE;
     $this->sort_order = MODULE_PAYMENT_PAYU_SORT_ORDER;
     $this->enabled = ((MODULE_PAYMENT_PAYU_STATUS == 'True') ? true : false);
-    $this->form_action_url = 'https://test.payu.in/_payment.php';
+    $this->form_action_url = 'https://sandboxsecure.payu.in/_payment.php';
 
     if (MODULE_PAYMENT_PAYU_TESTMODE == 'LIVE') {
       $this->form_action_url = 'https://secure.payu.in/_payment.php';
